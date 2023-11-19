@@ -1,0 +1,300 @@
+*{
+    margin:0;
+    padding:0;
+}
+#sticker img, #logo img{
+    width :5vw;
+}
+
+p, h1, h3, a{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin : 0;
+    text-decoration:none;
+    font-size : 2vw
+}
+
+.banner, footer{
+    background:#79b4e5;
+    color:white;
+}
+
+section, .banner{
+    padding : 2vw;
+}
+
+.top{
+    background: rgb(122, 215, 255) ;
+    color : white; 
+}
+
+table, tr, td{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align : center;
+    font-size : 1vw;
+    margin : 1vw;
+}
+td{
+    padding : 1vw;
+    border-bottom :dashed #79b4e5 0.2vw;
+    border-right :dashed #79b4e5 0.2vw;
+}
+
+.banner{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:stretch;
+    height : 40vw;
+}
+.banner h3{
+    border-bottom:dashed 1vw rgb(122, 215, 255) ;
+    font-size:5vw;
+    padding:0vw;
+    margin-top : 20vw;
+    text-align : center;
+}
+nav, aside, #top{
+    color:#05558f;
+    background:rgb(122, 215, 255);
+}
+
+
+
+header,section{
+    color:#05558f;
+    background:white;
+}
+
+
+header{
+    border-bottom:solid 1vw #05558f;
+    width:99vw;
+    height:10vh;
+    position:fixed;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items:center;
+    justify-content:space-between;
+    padding : 1vw;
+    margin:0;
+}
+body{
+    display:flex;
+    flex-flow: column wrap;
+    margin  : 0;
+}
+.bloc1{
+    margin-top:10vh;
+    display:flex;
+    flex-flow:row wrap;
+    width:100vw;
+}
+nav{
+    width:19vw;
+    display:flex;
+    flex-flow:column wrap;
+    padding-top:2vw;
+    align-items :center;
+    justify-content : space-between;
+}
+nav li{
+    border-bottom: solid 1px #05558f;
+    list-style-type: none;
+    margin: 0;
+    text-align:center;
+
+}
+
+nav li a{
+    display:block;
+    padding: 3vw 2vw;
+    color:#05558f;
+    font-size : 1.5vw;
+}
+
+nav li a:hover {
+    background:#79b4e5;
+    color:white;
+  }
+
+.bloc2{
+    width:81vw;
+}
+footer{
+    border-top:solid 1vh rgb(122, 215, 255);
+    height:20vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+section{
+    align-items: stretch;
+    width : 70vw;
+}
+section p{
+    padding : 3vw;
+}
+
+
+aside{
+    padding : 3vw;
+    color :#3890d8; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size : 1vw; 
+    text-decoration: none;
+    color: #05558f;
+}
+.bloc3{
+    display:flex;
+    flex-flow : row wrap;
+    height:70vh;
+}
+body{
+    margin : 0;
+    padding : 0;
+}
+
+p, p a{
+    padding:2vw;
+    padding-bottom : 5vw;
+    margin : auto;
+    font-size : 1vw
+}
+
+section h1{
+    font-size : 2vw;
+    margin-bottom : 0;
+}
+section p, nav li{
+    font-size :1vw;
+}
+
+#head{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size : 3vw;
+    font-weight : 900;
+}
+
+footer a{
+    color : rgb(122, 215, 255); 
+    text-decoration : underline; 
+    margin: 0; 
+    padding : 0;
+}
+
+
+.photo_desc{
+    margin :1vw;
+    align-items : stretch;  
+    display: flex; 
+    flex-flow : row nowrap;
+    width :50vw;
+    background:#79b4e5;
+}
+
+.contenu{
+    display : flex; 
+    flex-flow: row wrap;
+    justify-content : space-around; 
+}
+
+#tfc{
+    display : flex; 
+    flex-flow: column nowrap;
+    width : 50vw;
+}
+
+#tfc_img{
+    width: 40vw;
+}
+
+.photo_desc a{
+    color : white;
+    font-size : 1vw; 
+}
+
+.photo img{
+    width : 25vw;
+    padding : 2vw;
+}
+.desc{
+    align-self : center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#ffffff;
+    padding : 2vw;
+    font-size : 1vw;
+}
+
+.bloc2 #actu{
+    display : flex;
+    width : 35vw;
+    flex-flow : row nowrap;
+}
+
+#bloc_actu{
+    width:30vw;
+}
+
+aside li{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size : 1vw; 
+    margin-bottom : 2vw;
+}
+
+aside a{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size : 1vw; 
+    text-decoration: underline;
+}
+section a{
+    text-decoration : underline; 
+    color : #05558f; 
+    padding : 0;
+    margin : 0
+}
+
+#darja, #vik, #israel{
+    width : 45vw;
+    margin-top : 1vw;
+    margin-bottom: 1vw;
+}
+
+@media screen and (max-width : 481px){
+    nav{
+        width : 10vw;
+        margin:0;
+        padding-top : 5vh;
+        padding: 0;
+        align-content: center;
+        display : flex;
+        flex-flow: column nowrap;
+        padding-right : 5vw;
+    }
+    
+    nav li{
+        margin-top :1em;
+    }
+
+    section p, aside li, aside a, desc, footer a, footer p, nav li a{
+        font-size: 3vw;
+    }
+
+    table, tr, td{
+        font-size : 2vw
+    }
+    aside{
+        width : 80vw;
+    }
+
+    header{
+        height :15vw
+    }
+    .bloc1{
+        margin-top :14%;
+    }
+
+    footer, section{
+        padding-bottom:  0vh ;
+    }
+    section h1{
+        font-size : 3vw
+    }
+}
